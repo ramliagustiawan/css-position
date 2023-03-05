@@ -137,8 +137,20 @@ body {
 }
 .container {
   width: 960px;
-  margin: auto;
+  margin: 80px auto;
   background-color: #fff;
+  position: relative;
+}
+.twitter {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/twitter.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  top: -22px;
+  right: -24px;
 }
 .header {
   padding: 20px;
